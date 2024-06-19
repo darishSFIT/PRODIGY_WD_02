@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stopwatch-container">
+            <div class="header">Stopwatch⏱️</div>
+            <div class="time-display" id="time-display">00:00:00</div>
+            <div class="controls">
+                <button class="start-btn" id="start-btn">Start</button>
+                <button class="pause-btn" id="pause-btn">Pause</button>
+                <button class="reset-btn" id="reset-btn">Reset</button>
+                <button class="record-btn" id="record-btn">Capture</button>
+            </div>
+        </div>
+        <div class="records-container">
+            <div id="records" align="center"></div>
+            <button class="clear-records-btn" id="clear-records-btn">Clear <br>Timestamps</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
