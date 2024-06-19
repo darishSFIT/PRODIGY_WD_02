@@ -1,3 +1,2 @@
-# PRODIGY_WD_02
-Task 2 Comleted!
+Prodigy Infotech Web Development Internship Task 2 Completed! 
 Creation of a stopwatch using HTML/CSS and JavaScript!
